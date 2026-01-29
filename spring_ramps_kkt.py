@@ -29,7 +29,6 @@ def main():
     c = np.array([0.0, m1 * g, 0.0, m2 * g], dtype=float)
 
     # Constraints: y1 >= a1 x1 and y2 >= a2 x2
-    # Write as Aq - b <= 0 with a1 x1 - y1 <= 0 and a2 x2 - y2 <= 0
     A = np.array(
         [
             [a1, -1.0, 0.0, 0.0],
